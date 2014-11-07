@@ -25,7 +25,7 @@ String      --   Button Layout
 Default       -> [Ok][Cancel]
 
 
-To display the message box, simply call "MessageBox.Show();". This will return a boolean value, which can be used as a prompt from users. If the user selects Yes, Save, or Ok, a result of true will be returned. If a user selects No or Cancel, a result of false will be returned. Once a button is clicked, the message box window is closed.
+To display the message box, simply call "MessageBox.show();". This will return a boolean value, which can be used as a prompt from users. If the user selects Yes, Save, or Ok, a result of true will be returned. If a user selects No or Cancel, a result of false will be returned. Once a button is clicked, the message box window is closed.
 
 
 
@@ -34,7 +34,10 @@ REQUIREMENTS
 Java Runtime Enviroment 8
 
 
-
+NOTES
+-------------
+* This has NOT been tested on Mac. While this should be able to be used everywhere JavaFX can be, I cannot confirm
+design/layout proportions.
 
 
 
